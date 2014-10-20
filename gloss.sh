@@ -1,7 +1,7 @@
 curl -L https://raw.githubusercontent.com/GlossProject/glossproject.github.io/master/heroku.cfg > heroku.cfg
 mkdir pypi_local
 cd pypi_local
-curl -OL https://github.com/GlossProject/gloss.theme/releases/download/0.5.3/gloss.theme-0.5.3.zip # gloss.theme-0.5.3.zip
+curl -OL https://github.com/GlossProject/gloss.theme/releases/download/0.5.4/gloss.theme-0.5.4.zip # gloss.theme-0.5.3.zip
 curl -OL https://github.com/GlossProject/gloss.policy/releases/download/0.5.1/gloss.policy-0.5.1.zip # gloss.policy-0.5.zip
 cd ..
 git init
