@@ -9,7 +9,7 @@ git add .
 git commit -am 'initial setup of gloss'
 heroku create --buildpack git://github.com/pigeonflight/heroku-buildpack-plone
 
-read -d '' glossnotice <<- '_EOF_'                                                        
+read -d '' glossnotice <<- "_EOF_"                                                        
                         ,----..                          
   ,----..     ,--,     /   /   \   .--.--.    .--.--.    
  /   /   \  ,--.'|    /   .     : /  /    '. /  /    '.  
