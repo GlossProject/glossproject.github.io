@@ -8,30 +8,29 @@ git init
 git add .
 git commit -am 'initial setup of gloss'
 heroku create --buildpack git://github.com/pigeonflight/heroku-buildpack-plone
-echo "                        ,----..                         "
-echo "  ,----..     ,--,     /   /   \   .--.--.    .--.--.    "
-echo " /   /   \  ,--.'|    /   .     : /  /    '. /  /    '. "
-echo "|   :     : |  | :   .   /   ;.  \  :  /`. /|  :  /`. /  "
-echo ".   |  ;. / :  : '  .   ;   /  ` ;  |  |--` ;  |  |--`   "
-echo ".   ; /--`  |  ' |  ;   |  ; \ ; |  :  ;_   |  :  ;_     "
-echo ";   | ;  __ '  | |  |   :  | ; | '\  \    `. \  \    `.  "
-echo "|   : |.' .'|  | :  .   |  ' ' ' : `----.   \ `----.   \ "
-echo ".   | '_.' :'  : |__'   ;  \; /  | __ \  \  | __ \  \  | "
-echo "'   ; : \  ||  | '.'|\   \  ',  / /  /`--'  //  /`--'  / "
-echo "'   | '/  .';  :    ; ;   :    / '--'.     /'--'.     /  "
-echo "|   :    /  |  ,   /   \   \ .'    `--'---'   `--'---'   "
-echo " \   \ .'    ---`-'     `---`                            "
-echo "  `---`                                             "
-echo "  "
-echo "-----------------------------------------------------------------"
-echo "-                                                               -"
-echo "-   Look at you all Glossy :)! Next do the following:           -"
-echo "-                                                               -"
-echo "-   1. set a password in the heroku.cfg file                    -"
-echo "-   2. run the command:                                         -"
-echo "-           git commit -am 'updated the password'               -"
-echo "-   3. push your changes to heroku with this command            -"
-echo "-           git push heroku master                              -"
-echo "-                                                               -"
-echo "-----------------------------------------------------------------"
-
+echo '                        ,----..                         '
+echo '  ,----..     ,--,     /   /   \   .--.--.    .--.--.    '
+echo ' /   /   \  ,--.'|    /   .     : /  /    '. /  /    '. '
+echo '|   :     : |  | :   .   /   ;.  \  :  /`. /|  :  /`. /  '
+echo '.   |  ;. / :  : '  .   ;   /  ` ;  |  |--` ;  |  |--`   '
+echo '.   ; /--`  |  ' |  ;   |  ; \ ; |  :  ;_   |  :  ;_     '
+echo ';   | ;  __ '  | |  |   :  | ; | '\  \    `. \  \    `.  '
+echo '|   : |.' .'|  | :  .   |  ' ' ' : `----.   \ `----.   \ '
+echo '.   | '_.' :'  : |__'   ;  \; /  | __ \  \  | __ \  \  | '
+echo ''   ; : \  ||  | '.'|\   \  ',  / /  /`--'  //  /`--'  / '
+echo ''   | '/  .';  :    ; ;   :    / '--'.     /'--'.     /  '
+echo '|   :    /  |  ,   /   \   \ .'    `--'---'   `--'---'   '
+echo ' \   \ .'    ---`-'     `---`                            '
+echo '  `---`                                             '
+echo '  '
+echo '-----------------------------------------------------------------'
+echo '-                                                               -'
+echo '-   Look at you all Glossy :)! Next do the following:           -'
+echo '-                                                               -'
+echo '-   1. set a password in the heroku.cfg file                    -'
+echo '-   2. run the command:                                         -'
+echo '-           git commit -am 'updated the password'               -'
+echo '-   3. push your changes to heroku with this command            -'
+echo '-           git push heroku master                              -'
+echo '-                                                               -'
+echo '-----------------------------------------------------------------'
