@@ -38,4 +38,4 @@ read -d '' glossnotice <<- '_EOF_'
 -----------------------------------------------------------------
 _EOF_
 
-echo $glossnotice;
+echo "$glossnotice";
